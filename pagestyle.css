@@ -1,0 +1,119 @@
+body {
+    background-image: url(images/FondEcran/fond3.jpg);
+    
+}
+
+@font-face {
+    font-family: 'anderfont';
+    src: url(anderfont.otf);
+}
+
+header {
+    text-align: center;
+    font-family: 'anderfont';
+    font-size: 40px;
+    color: rgb(0, 255, 170);
+    width: 40pc;
+    margin: auto;
+    margin-top: 2pc;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(26, 8, 5);
+    opacity: 0.80;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 255, 170);
+}
+
+img:hover {
+    opacity: 0.7;
+    transition: opacity 0.9s;
+  }
+
+img {
+    width: 20pc;
+    height: 20pc;
+    border-radius: 30px;
+    display: block;
+    bottom: -20px;
+}
+
+
+.click {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    padding: 0,4px;
+    text-align: center;
+    z-index: 10;
+    color: white;
+    background-color: rgb(148, 73, 218);
+    font-size: 0.8em;
+    font-family: "Syncopate", Courier, monospace;
+    opacity: 0; /*opacity 0 car le texte ne doit pas être affiché avant le hover*/
+  }
+  
+  .foto:hover .click {
+    opacity: 0.80; /*le texte passe à opacity 1 et devient visible*/
+    transition: opacity 1.5s;
+  }
+
+#conteneur {
+    width: 90pc;
+    margin: auto;
+    margin-top: 10pc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.art {
+    border: 2px solid blueviolet;
+    border-radius: 2pc;
+    padding: 0;
+    text-align: center  ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 20px  rgb(0, 255, 170);
+    background-color: white;
+    position: relative;
+    margin-bottom: 60px;
+    margin-left: 40px;
+   
+}
+
+.foto {
+    width: auto;
+    margin-top: auto;
+}
+
+@font-face {
+    font-family: 'Syncopate';
+    src: url(Police/Syncopate-Bold.ttf);
+}
+
+.descriptif {
+    font-family: 'Syncopate', sans-serif;
+    color: blueviolet;
+    z-index: +1;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-left: 5pc;
+    margin-right: 80px;
+   
+}
+
+
+h2 {
+text-align: center;
+margin-top: 15pc;
+color: blueviolet;
+}
