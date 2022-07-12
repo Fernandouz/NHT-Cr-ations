@@ -1,0 +1,178 @@
+body {
+    margin: 0px;   
+    background-size: 100pc;
+    position: relative;
+}
+
+/* NAVIGATION */
+
+@font-face {
+    font-family: 'anderfont';
+    src: url(anderfont.otf);
+}
+
+h1 {
+    margin: 0px;
+}
+
+h1 img {
+    width: 300px;
+    height: 140px;
+}
+
+@font-face {
+    font-family: 'royal' ;
+    src: url(RoyalKing-Free.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+
+nav {
+    background: rgba(255, 255, 255, 0.902);
+    font-family: 'saudagar';
+    font-size: 1em;
+    border-radius: 2pc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    height: fit-content;
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+i:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+a:visited {
+     text-decoration: none; color:black; 
+}
+
+nav .onglets {
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+   margin-right: 40px;
+}
+
+nav .onglets p {
+    margin: 10px;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'saudagar', cursive;
+    margin-top: 6pc;
+}
+
+/* DESCRIPTION */
+
+@font-face {
+    font-family: 'saudagar';
+    src: url(Police/Saudagar.ttf);
+}
+
+.description {
+    font-family: 'saudagar', cursive;
+    font-size: 1em;
+    border: 2px solid rgba(10, 3, 16, 0.52);
+    border-radius: 5px;
+    width: 65pc;
+    margin: auto;
+    margin-top: 5pc;
+    padding: 15px;
+    background: rgba(243, 244, 241, 0.508);
+    
+}
+
+.planete {
+    float: left;
+}
+
+/* -----------  Nouveauté ------------- */
+
+h2 {
+    text-align: center;
+    font-family: 'saudagar', cursive;
+    font-size: 24px;
+    color: rgb(16, 4, 107);
+    border: 1px solid rgb(9, 4, 110);
+    border-radius: 5px;
+    opacity: 0.70;
+    width: 20pc;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#nouveaute {
+    
+    
+    border-radius: 30px;
+    background: rgba(242, 237, 237, 0.254);
+    width: 80pc;
+    margin: auto;
+    margin-top: 3pc;
+    padding-top: 10px;
+}
+
+#slider {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.photo {
+    border: 2px solid rgb(46, 1, 89);
+    border-radius: 2pc;
+    padding: 0;
+    text-align: center  ;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.new {
+    width: 15pc;
+    height: 15pc;
+    border-radius: 30px;
+    display: block;
+    bottom: -20px;
+}
+
+/* FOOTER */
+
+/* contatc*/
+
+#contact {
+    font-family: 'hand';
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 30px;
+    border-radius: 5px;
+
+}
+
+.provisoire {
+    text-align: center;
+    margin-top: 5pc;
+    font-family: 'saudagar', cursive;
+}
